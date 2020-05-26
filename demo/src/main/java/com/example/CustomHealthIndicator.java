@@ -14,6 +14,6 @@ public class CustomHealthIndicator extends AbstractHealthIndicator {
         
         builder.up()
                 .withDetail("app", "Alive and Kicking")
-                .withDetail("error", "Nothing! I'm good.");
+                .withDetail("error", "Nothing! I'm good");
     }
 }
